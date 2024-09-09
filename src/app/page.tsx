@@ -1,25 +1,21 @@
+import Image from "next/image"
+import logo from "../../public/logo.png"
 export default function Home() {
   return (
     <div 
-      className="grid grid-rows-10 h-screen bg-contain bg-center brightness-75 opacity-90 px-60 bg-no-repeat"
+      className="grid grid-rows-10 h-full bg-contain bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('/homepage.jpg')",
     }}>
-      <h1 
-        className="row-span-1 text-6xl px-12"
-        style={{color: "#71bae7"}}>
-          Co
-      </h1>
-      <hr 
-        className="row-span-1"
-        style={{
-          borderColor: "#71bae7",
-          borderWidth: "1px",
-        }}>  
-      </hr>
-      <div className="grid justify-center">
+      <div className="row-span-2 w-9/12 mx-auto my-0">
+        <Image 
+            src={logo}
+            alt="Logo for Casey Ortiz"
+        />
+      </div>
+      <div className="row-span-8 grid justify-center">
         <h1 
-          className="row-span-8 text-7xl"
+          className="sm:text-5xl md:text-6xl lg:text-7xl"
           style={{color: "#71bae7"}}>
             CASEY ORTIZ
         </h1>
