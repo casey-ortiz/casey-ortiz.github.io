@@ -17,10 +17,16 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: 'The Seasons Regular'
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'The Seasons Regular';
+  src: url('/fonts/Fontspring-DEMO-theseasons-reg.otf');
 }
