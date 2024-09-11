@@ -8,9 +8,9 @@ export default function Home() {
         backgroundImage: "url('/images/homepage.jpg')",
     }}>
       <div 
-        className="row-span-1 mx-auto my-0"
+        className="hidden sm:block sm:row-span-1 mx-auto my-0"
         style={{
-          width: "75vw",
+          width: "80vw",
           height: "3vh",}}
       >
         <Image 
@@ -19,10 +19,10 @@ export default function Home() {
             alt="Logo for Casey Ortiz"
         />
       </div>
-      <hr style={{width: "75vw", borderColor: "#71bae7", margin: "auto"}}></hr>
-      <div className="row-span-8 grid justify-center">
+      <hr className="hidden sm:block" style={{width: "75vw", borderColor: "#71bae7", margin: "auto"}}></hr>
+      <div className="row-span-10 sm:row-span-8 grid justify-center pt-28 sm:pt-0">
         <h1 
-          className="sm:text-5xl md:text-6xl lg:text-7xl"
+          className="text-5xl md:text-6xl lg:text-7xl"
           style={{color: "#71bae7"}}>
             CASEY ORTIZ
         </h1>
