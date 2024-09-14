@@ -20,6 +20,10 @@ body {
   font-family: 'The Seasons Regular'
 }
 
+a:hover {
+  opacity: 0.75
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -29,4 +33,9 @@ body {
 @font-face {
   font-family: 'The Seasons Regular';
   src: url('/fonts/Fontspring-DEMO-theseasons-reg.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf');
 }
