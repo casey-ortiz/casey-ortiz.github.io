@@ -23,7 +23,7 @@ export default function Home() {
           alt="Logo for Casey Ortiz"
         />
       </div>
-      <hr className="hidden md:block" style={{width: "85vw", borderColor: "#71bae7", margin: "auto"}}></hr>
+      <hr className="hidden md:block md:m-auto" style={{width: "85vw", borderColor: "#71bae7"}}></hr>
       <div className="pt-28 md:pt-5 grid justify-center align-middle">
         <h1
           className="text-6xl sm:text-7xl md:text-8xl"

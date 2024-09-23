@@ -20,6 +20,10 @@ body {
   font-family: 'The Seasons Regular'
 }
 
+p {
+  font-family: 'Montserrat'
+}
+
 a:hover {
   opacity: 0.75
 }
