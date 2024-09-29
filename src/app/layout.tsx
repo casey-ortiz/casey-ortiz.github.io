@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./navbar";
+import Navigation from "./navigation/page";
 
 export const metadata: Metadata = {
   title: "Casey Ortiz",
@@ -17,7 +17,7 @@ export default function RootLayout({
       <body
         className="antialiased h-screen"
       >
-        <Navbar />
+        <Navigation />
         {children}
       </body>
     </html>
