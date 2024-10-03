@@ -2,7 +2,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IconContext } from "react-icons";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
@@ -24,6 +24,10 @@ export default function Sidebar() {
     setIsOpen(!isOpen);
   };
   const pathname = usePathname();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
 
   return (
     <div className="absolute right-0 md:hidden">
