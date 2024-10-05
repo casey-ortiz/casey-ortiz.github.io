@@ -7,7 +7,7 @@ export default function About() {
       >
         <h1 className="text-5xl lg:text-6xl" style={{color: "#FFFFFF"}}>About</h1>
       </div>
-      <hr className="hidden md:block md:m-auto" style={{width: "85vw"}}></hr>
+      <hr className="block m-auto" style={{width: "85vw"}}></hr>
       <div className="text-left m-auto" style={{width: "80vw", color: "#FFFFFF"}}>
         <p className="pt-5 text-base lg:text-lg xl:pt-8 xl:text-xl">
           Welcome to the vibrant realm of Casey Ortiz, where music acts as a bridge connecting different cultures and serving as a deep expression of the human journey. As a Puerto-rican singer-songwriter, Casey merges Latin, R&B, and K-pop influences in her music, crafting a rich and captivating sound.
