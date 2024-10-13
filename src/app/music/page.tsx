@@ -16,7 +16,6 @@ export default function Music() {
           <iframe 
             width="75%" 
             height="350" 
-            frameborder="no" 
             allow="autoplay" 
             src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/lotus-flower-206577421&show_playcount=false"
           >
