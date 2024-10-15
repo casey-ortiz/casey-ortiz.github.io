@@ -4,7 +4,7 @@ import { FaInstagram, FaYoutube, FaFacebook, FaSoundcloud, FaLinkedin } from "re
 
 export default function SocialIcons() {
   return (
-    <div className="flex justify-evenly py-10" style={{ width: "20vw" }}>
+    <div className="flex justify-evenly py-10 w-[50vw] md:w-[30vw] lg:w-[25vw]">
       <Link href="https://www.instagram.com/_ca.sey0205/" target="_blank">
         <FaInstagram size={30} style={{ color: "#71bae7" }} />
       </Link>

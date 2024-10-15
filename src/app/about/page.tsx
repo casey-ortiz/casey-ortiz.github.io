@@ -19,7 +19,7 @@ export default function About() {
           Apart from her musical prowess, Casey excels in social media marketing, overseeing social media platforms and creating bi-weekly newsletters for the Community Music School of Springfield. She managed interviews, cinematography, and post-production, all while developing digital content for the CMSS website.
         </p>
         <p className="pt-5 pb-5 text-base lg:text-lg xl:pt-8 xl:text-xl">
-          The music of the 2000s and 2010s significantly influenced Casey&apos;s perspective on the industry, emphasizing authenticity and storytelling in songs that foster a deep connection between artists and listeners. Her ambition is to reintroduce this sincerity into contemporary music, which `often leans towards mainstream trends rather than genuine artistic expression. Casey believes that her commitment to rejuvenating the essence of past eras, combined with her diverse musical expertise and bilingual proficiency, distinguishes her in today&apos;s music landscape.
+          The music of the 2000s and 2010s significantly influenced Casey&apos;s perspective on the industry, emphasizing authenticity and storytelling in songs that foster a deep connection between artists and listeners. Her ambition is to reintroduce this sincerity into contemporary music, which often leans towards mainstream trends rather than genuine artistic expression. Casey believes that her commitment to rejuvenating the essence of past eras, combined with her diverse musical expertise and bilingual proficiency, distinguishes her in today&apos;s music landscape.
         </p>
       </div>
     </>

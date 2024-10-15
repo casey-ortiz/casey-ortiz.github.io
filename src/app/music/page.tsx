@@ -28,19 +28,18 @@ export default function Music() {
           </Link>
         </div>
       </div>
-      <div id="performances" className="h-screen pt-5">
+      <div id="performances" className="flex flex-col items-center h-screen pt-5">
         <div 
-          className="grid justify-center md:block md:justify-normal pt-10 pb-7"
-          style={{width: "85vw", margin: "auto"}}
+          className="grid justify-center pt-5 pb-7 w-[85vw] md:block md:justify-normal"
         >
           <h1 className="text-5xl lg:text-6xl" style={{color: "#FFFFFF"}}>Performances</h1>
         </div>
-        <hr className="block m-auto" style={{width: "85vw"}}></hr>
-        <div className="h-screen flex flex-wrap justify-evenly pt-10">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/i3WJ74lKTAY?si=p8v59vtMZ6L4zuU5" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/7mdX2T5yCOY?si=ogF_j8J5cVcjEHAo" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/OktMaFYhb-A?si=vJOe0aJx02nI-ZPA" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Dl8qY0txI5w?si=P18wzRTv_axY5P7z" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <hr className="block w-[85vw]"></hr>
+        <div className="h-screen grid grid-cols-1 xl:grid-cols-2 place-items-center w-[90vw] 2xl:w-[80vw]">
+          <iframe className="pt-7" width="560" height="315" src="https://www.youtube.com/embed/i3WJ74lKTAY?si=p8v59vtMZ6L4zuU5" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe className="pt-7" width="560" height="315" src="https://www.youtube.com/embed/7mdX2T5yCOY?si=ogF_j8J5cVcjEHAo" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe className="pt-7" width="560" height="315" src="https://www.youtube.com/embed/Dl8qY0txI5w?si=P18wzRTv_axY5P7z" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe className="pt-7" width="560" height="315" src="https://www.youtube.com/embed/OktMaFYhb-A?si=vJOe0aJx02nI-ZPA" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
     </>
