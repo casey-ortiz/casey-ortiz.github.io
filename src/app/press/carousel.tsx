@@ -21,8 +21,7 @@ import {
 
 export function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
-  const slides = Array.from([press1, press2, press3, press4])
-  const slides2 = [
+  const slides = [
     { img: press1, link: "https://www.masslive.com/elpueblolatino/2014/12/concierto_festivo_de_mambo_on.html", target: "_blank" },
     { img: press2, link: "#", target: "" },
     { img: press3, link: "#", target: "" },
@@ -41,7 +40,7 @@ export function EmblaCarousel() {
     <section className="embla pt-10">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides2.map((item, index) => (
+          {slides.map((item, index) => (
             <div className="embla__slide" key={index}>
               <Link href={item.link} target={item.target}>
                 <Image className="embla_slide_number" 
