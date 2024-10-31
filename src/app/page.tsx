@@ -1,4 +1,5 @@
 import Image from "next/image"
+import SocialIcons from "./socials/social-icons";
 import logo from "../../public/images/logo.png"
 
 export default function Home() {
@@ -30,6 +31,12 @@ export default function Home() {
           style={{color: "#71bae7"}}>
             CASEY ORTIZ
         </h1>
+      </div>
+      <div className="flex justify-center items-center h-1/4 xl:h-1/4">
+        <h1 className="text-md xl:text-xl 2xl:text-3xl">singer-songwriter | performer | recording & production | marketer</h1>
+      </div>
+      <div className="flex justify-center items-end h-1/3 2xl:h-1/2">
+        <SocialIcons/>
       </div>
     </div>
   );
