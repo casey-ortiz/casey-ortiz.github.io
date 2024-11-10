@@ -1,5 +1,5 @@
 'use client'
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
@@ -15,7 +15,7 @@ import {
   useSelectedSnapDisplay
 } from './EmblaCarouselSelectedSnapDisplay'
 
-export function EmblaCarousel({ slides }) {
+export function EmblaCarousel({ slides }: { slides: { img: StaticImageData, link: string, target: string }[]}) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
   const {
     prevBtnDisabled,
