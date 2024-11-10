@@ -3,10 +3,6 @@ import Image from "next/image"
 import Link from "next/link"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
-import press1 from "../../../public/images/press1.jpeg"
-import press2 from "../../../public/images/press2.jpg"
-import press3 from "../../../public/images/press3.jpg"
-import press4 from "../../../public/images/press4.jpeg"
 import "./carousel.css"
 
 import {
@@ -19,14 +15,8 @@ import {
   useSelectedSnapDisplay
 } from './EmblaCarouselSelectedSnapDisplay'
 
-export function EmblaCarousel() {
+export function EmblaCarousel({ slides }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
-  const slides = [
-    { img: press1, link: "https://www.masslive.com/elpueblolatino/2014/12/concierto_festivo_de_mambo_on.html", target: "_blank" },
-    { img: press2, link: "#", target: "" },
-    { img: press3, link: "#", target: "" },
-    { img: press4, link: "https://www.masslive.com/living/2014/12/mambo_on_main_street_celebrates_library_holidays.html", target: "_blank" },
-  ]
   const {
     prevBtnDisabled,
     nextBtnDisabled,
